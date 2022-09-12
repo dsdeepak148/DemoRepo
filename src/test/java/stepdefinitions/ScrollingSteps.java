@@ -106,7 +106,7 @@ public class ScrollingSteps extends TestBase {
 		driver.executeScript("mobile:scroll", scrollObject);
 		driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"Horizontal scroll bar, 1 page\"]")).click();
 		
-		System.out.println("Scrolling Done");
+		System.out.println("Scrolling Scenario completed");
 		
 
 	}
